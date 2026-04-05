@@ -11,7 +11,7 @@ import utils.ElementUtils;
 public class AccountPage {
 	
 	WebDriver driver;
-	private ElementUtils elementUtils;
+	private final ElementUtils elementUtils;
 	
 	public AccountPage(WebDriver driver) {
 		

@@ -11,7 +11,7 @@ import utils.ElementUtils;
 public class RegisterPage {
 	
 	WebDriver driver;
-	private ElementUtils elementUtils;
+	private final ElementUtils elementUtils;
 	
 	public RegisterPage(WebDriver driver) {
 		

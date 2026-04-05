@@ -8,9 +8,9 @@ And User clicks on Login button
 Then User should get successfully logged in
 Examples:
 |username								|password	|
-|amotooricap1@gmail.com	|12345		|
-|amotooricap2@gmail.com	|12345		|
-|amotooricap3@gmail.com	|12345		|
+|amotooricap1@gmail.com	                |12345		|
+|amotooricap2@gmail.com	                |12345		|
+|amotooricap3@gmail.com             	|12345		|
 
 Scenario: Login with invalid credentials
 Given User navigates to login page

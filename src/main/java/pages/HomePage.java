@@ -11,7 +11,7 @@ import utils.ElementUtils;
 public class HomePage {
 	
 	WebDriver driver;
-	private ElementUtils elementUtils;
+	private final ElementUtils elementUtils;
 	
 	public HomePage(WebDriver driver) {
 		
