@@ -11,7 +11,7 @@ import utils.ElementUtils;
 public class AccountSuccessPage {
 	
 	WebDriver driver;
-	private ElementUtils elementUtils;
+	private final ElementUtils elementUtils;
 	
 	public AccountSuccessPage(WebDriver driver) {
 		

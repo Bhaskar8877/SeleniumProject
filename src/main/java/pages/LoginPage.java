@@ -11,7 +11,7 @@ import utils.ElementUtils;
 public class LoginPage {
 	
 	WebDriver driver;
-	private ElementUtils elementUtils;
+	private final ElementUtils elementUtils;
 	
 	public LoginPage(WebDriver driver) {
 		

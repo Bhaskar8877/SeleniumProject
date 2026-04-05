@@ -11,7 +11,7 @@ import utils.ElementUtils;
 public class SearchResultsPage {
 	
 	WebDriver driver;
-	private ElementUtils elementUtils;
+	private final ElementUtils elementUtils;
 	
 	public SearchResultsPage(WebDriver driver) {
 		
